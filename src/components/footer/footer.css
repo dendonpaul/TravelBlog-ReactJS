@@ -1,0 +1,33 @@
+.showcase .social ul {
+  margin-left: 100px;
+  position: absolute;
+  bottom: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.showcase .social ul li {
+  list-style: none;
+}
+
+.showcase .social ul li i {
+  font-size: 50px;
+}
+
+.showcase .social a {
+  display: inline-block;
+  /* background: #fff; */
+  filter: invert(1);
+  margin-right: 20px;
+  transform: scale(0.5);
+  transition: 0.5s;
+}
+
+.social {
+  height: 10vh;
+}
+
+.showcase .social a:hover {
+  transform: scale(0.5) translateY(-15px);
+}

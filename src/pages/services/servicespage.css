@@ -1,0 +1,43 @@
+.services-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: rgb(223, 222, 222);
+  margin: auto 80px;
+  height: 75vh;
+}
+
+.photography {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  background-color: rgba(64, 68, 68, 0.209);
+  padding: 20px;
+}
+.video {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  background-color: rgba(64, 68, 68, 0.209);
+  padding: 20px;
+}
+
+.desc {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 30px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 24px;
+}
+.desc a {
+  color: rgb(244, 246, 98);
+  text-decoration: none;
+}
+.photography h2,
+.video h2 {
+  align-self: center;
+}
+.read span:hover {
+  color: antiquewhite;
+}

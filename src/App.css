@@ -14,3 +14,27 @@
   background-size: cover;
   background-position: center;
 }
+
+.showcase-content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  align-items: center;
+  text-align: center;
+}
+
+.showcase-content h1 {
+  font-size: 40px;
+  margin-top: 80px;
+  color: #fff;
+}
+
+.showcase-content p {
+  margin: 20px auto;
+  font-weight: 500;
+  line-height: 1.4;
+  color: #fff;
+}

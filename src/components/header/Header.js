@@ -6,23 +6,22 @@ import "./header.css";
 const Header = () => {
   return (
     <div className="navbar">
-      <NavLink className="logo">TravelBlog</NavLink>
-
+      <NavLink className="logo">Travel Blog</NavLink>
       <ul>
         <li>
-          <NavLink to="index.html">Home</NavLink>
+          <NavLink to="/">Home</NavLink>
         </li>
         <li>
-          <NavLink to="services.html">Services</NavLink>
+          <NavLink to="/services">Services</NavLink>
         </li>
         <li>
-          <NavLink to="places.html">Places</NavLink>
+          <NavLink to="/places">Places</NavLink>
         </li>
         <li>
-          <NavLink to="about.html">About</NavLink>
+          <NavLink to="/about">About Us</NavLink>
         </li>
         <li>
-          <NavLink to="contact.html">Contact</NavLink>
+          <NavLink to="/contact">Contact</NavLink>
         </li>
       </ul>
     </div>
