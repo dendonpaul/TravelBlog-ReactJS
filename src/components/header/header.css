@@ -34,6 +34,16 @@
   color: #fff;
   text-transform: uppercase;
 }
+.navbar ul li .active:after {
+  content: "";
+  height: 3px;
+  width: 100%;
+  background: #fff;
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  transition: 0.5s;
+}
 
 .navbar ul li::after {
   content: "";
